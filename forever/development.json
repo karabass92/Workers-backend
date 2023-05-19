@@ -1,0 +1,10 @@
+{
+    "uid": "app",
+    "append": true,
+    "watch": true,
+    "script": "index.js",
+    "sourceDir": "/opt/Workers-backend-",
+    "logFile": "/opt/Workers-backend-/forever.log",
+    "outFile": "/opt/Workers-backend-/out.log",
+    "errFile": "/opt/Workers-backend-/error.log"
+}
