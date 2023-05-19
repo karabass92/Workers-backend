@@ -21,9 +21,6 @@ class WorkerController {
     async getOne(req, res) {
         try {
             const { id } = req.params;
-            if(typeof id !== Number || !Number.isInteger(id)) {
-                throw new Error('invalid id')
-            }
             let worker = await Worker.findOne(
                 {
                     where: { id }
